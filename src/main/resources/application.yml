@@ -1,0 +1,10 @@
+spring:
+  datasource:
+
+    url: jdbc:postgresql://localhost:5432/messenger_db
+    username: messenger_db_user
+    password: 12345aA@
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
